@@ -11,8 +11,6 @@ Object-based replacement for BUILD APPLICATION
 ```
 $BuildApp:=BUILD_Get_option 
 
-  //bundle identifier is automatically set to 4d.com.{name}.app
-
 $BuildApp.BuildApplicationName:=Path to object(Structure file).name
 $BuildApp.BuildCompiled:=False
 $BuildApp.IncludeAssociatedFolders:=False
