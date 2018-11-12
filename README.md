@@ -15,6 +15,10 @@ project:=BUILD_Get_option
 BUILD_SET_OPTION(project)
 ```
 
+Parameter|Type|Description
+------------|------------|----
+project|TEXT|``JSON``
+
 converts the default build application project ``xml`` file to ``json`` object.
 
 ```
