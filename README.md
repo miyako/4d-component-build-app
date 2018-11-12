@@ -96,9 +96,9 @@ $BuildApp.Versioning.RuntimeVL.RuntimeVLSpecialBuild:="1.0"
 
 BUILD_SET_OPTION ($BuildApp)
 
-$Log:=BUILD_APPLICATION 
+$log:=BUILD_APPLICATION 
 
-If ($Log.OK=1)
+If ($log.OK=1)
 	
 	If ($BuildApp.SignApplication.MacSignature=False) | Is Windows
 		
