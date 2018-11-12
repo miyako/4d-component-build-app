@@ -17,14 +17,7 @@ BUILD_SET_OPTION ($BuildApp)
 $log:=BUILD_APPLICATION 
 
 If ($log.OK=1)
-	
-	If ($BuildApp.SignApplication.MacSignature=False) | Is Windows
-		
-		$imagePath:=Get 4D folder(Current resources folder)+"templates"+Folder separator+"application.png"
-		BUILD_SET_SPLASH ($BuildApp;$imagePath)  //the default image is visibile for a short time...
-		
-	End if 
-	
+
 	If (Is macOS)
 		$path:=$BuildApp.BuildMacDestFolder
 	Else 
