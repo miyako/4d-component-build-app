@@ -6,6 +6,10 @@ Object-based replacement for BUILD APPLICATION
 
 <img src="https://user-images.githubusercontent.com/1725068/41266195-ddf767b2-6e30-11e8-9d6b-2adf6a9f57a5.png" width="32" height="32" />
 
+### Releases
+
+[1.0](https://github.com/miyako/4d-component-build-app/releases/tag/1.0)
+
 ## Examples
 
 * Basic
