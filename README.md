@@ -1,20 +1,14 @@
+![platform](https://img.shields.io/static/v1?label=platform&message=osx-64%20|%20win-32%20|%20win-64&color=blue)
+![version](https://img.shields.io/badge/version-17%2B-3E8B93)
+[![license](https://img.shields.io/github/license/miyako/4d-component-build-app)](LICENSE)
+![downloads](https://img.shields.io/github/downloads/miyako/4d-component-build-app/total)
 # 4d-component-build-app
 
 Object-based replacement for BUILD APPLICATION
 
-### Version
-
-<img src="https://user-images.githubusercontent.com/1725068/41266195-ddf767b2-6e30-11e8-9d6b-2adf6a9f57a5.png" width="32" height="32" />
-
-### Releases
-
-[1.0](https://github.com/miyako/4d-component-build-app/releases/tag/1.0)
-
-## Examples
-
 * Basic
 
-```
+```4d
 $BuildApp:=BUILD_Get_option 
 BUILD_SET_OPTION ($BuildApp)
 
@@ -36,7 +30,7 @@ End if
 
 * Advanced
 
-```
+```4d
 $BuildApp:=BUILD_Get_option 
 
 $BuildApp.BuildApplicationName:=Path to object(Structure file).name
@@ -177,7 +171,7 @@ Parameter|Type|Description
 ------------|------------|----
 log|TEXT|``JSON`` properties are ``OK`` (numeric), ``log`` (collection) and ``path``) each item in ``log`` has ``messageType``, ``target``, ``codeDesc``, ``CodeId``, and ``message`` from the build application log file.
 
-```
+```4d
 C_OBJECT($0;$result)
 
 $result:=New object("OK";0;"log";New collection;"path";Null)
