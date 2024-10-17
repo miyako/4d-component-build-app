@@ -2,6 +2,10 @@
 ![version](https://img.shields.io/badge/version-17%2B-3E8B93)
 [![license](https://img.shields.io/github/license/miyako/4d-component-build-app)](LICENSE)
 ![downloads](https://img.shields.io/github/downloads/miyako/4d-component-build-app/total)
+![deprecated](https://img.shields.io/badge/-deprecated-inactive)
+
+use [miyako/buildapp](https://github.com/miyako/buildapp)
+
 # 4d-component-build-app
 
 Object-based replacement for BUILD APPLICATION
